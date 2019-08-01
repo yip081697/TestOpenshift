@@ -1,0 +1,1 @@
+09:11:42.226 [XNIO-1 I/O-21]   ERROR c.networknt.handler.LightHttpHandler:55 setExchangeStatus - {"statusCode":404,"code":"ERR10048","message":"PATH_NOT_IMPLEMENTED","description":"No handler defined for path '/favicon.ico'","severity":"ERROR"} at com.networknt.handler.OrchestrationHandler.handleRequest(OrchestrationHandler.java:46)
