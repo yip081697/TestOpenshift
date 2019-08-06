@@ -1,0 +1,26 @@
+openapi: 3.0.0
+info:
+  version: 1.0.0
+  title: TestHelloWorld
+  description: Basic database project
+paths:
+  /hello:
+    get:
+      summary: return hello
+      reponses:
+        '200':
+          description: Successful
+          content:
+            application/json:
+              schema:
+                type: string
+  /html:
+    get:
+      summary: return html
+      responses:
+        '200':
+          description: good
+          content:
+            application/json:
+              schema:
+                type: string
